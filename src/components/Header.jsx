@@ -30,6 +30,7 @@ export function Header() {
                     <Link href="/poolbeach">Havuz & Sahil</Link>
                     <Link href="/spa">Spa</Link>
                     <Link href="/activities">Aktiviteler</Link>
+                    <Link href="/lorymamice">Loryma Mice</Link>
                   </span>
                 </span>
               </div>
