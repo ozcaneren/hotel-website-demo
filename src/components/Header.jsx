@@ -25,19 +25,10 @@ export function Header() {
               <div>
                 <span className="relative flex cursor-pointer px-2 py-2 flex-row items-center h-11 focus:outline-none">
                   <span className="block py-2 border-b lg:border-0 lg:p-0 space-x-4">
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
-                    <Link href="/login">Login</Link>
+                    <Link href="/rooms">Odalar</Link>
+                    <Link href="/restaurant">Restoran</Link>
+                    <Link href="/poolbeach">Havuz & Sahil</Link>
+                    <Link href="/spa">Spa</Link>
                   </span>
                 </span>
               </div>
@@ -61,6 +52,7 @@ export function Header() {
                 <span className="block py-2 px-2 lg:hover-bg-transparent lg-border-0 lg-p-0">
                   <BsFillFlagFill size={16} className="" />
                 </span>
+                TR
               </span>
             </Link>
           </div>
