@@ -97,7 +97,7 @@ export default function Page() {
                 </div>
                 <div className="w-[1000px] flex justify-center flex-col">
                   <h1 className="text-[#0d3c5a] font-semibold text-2xl">
-                    LORYMA'NIN BARLARI
+                    LORYMANIN BARLARI
                   </h1>
                   <p className="pt-6 text-lg leading-relaxed">
                     Gün ortasında lezzetli bir kahve, serinletici ev yapımı
@@ -130,7 +130,7 @@ export default function Page() {
                   </div>
                   <div className="w-[1000px] flex justify-center flex-col">
                     <h1 className="text-[#0d3c5a] font-semibold text-2xl">
-                      LORYMA'NIN BARLARI
+                      LORYMANIN BARLARI
                     </h1>
                     <p className="pt-6 text-lg leading-relaxed">
                       Gün ortasında lezzetli bir kahve, serinletici ev yapımı
@@ -158,7 +158,7 @@ export default function Page() {
                   </div>
                   <div className="w-[1000px] flex justify-center flex-col">
                     <h1 className="text-[#0d3c5a] font-semibold text-2xl">
-                      LORYMA'NIN BARLARI
+                      LORYMANIN BARLARI
                     </h1>
                     <p className="pt-6 text-lg leading-relaxed">
                       Gün ortasında lezzetli bir kahve, serinletici ev yapımı
