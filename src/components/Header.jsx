@@ -29,6 +29,7 @@ export function Header() {
                     <Link href="/restaurant">Restoran</Link>
                     <Link href="/poolbeach">Havuz & Sahil</Link>
                     <Link href="/spa">Spa</Link>
+                    <Link href="/activities">Aktiviteler</Link>
                   </span>
                 </span>
               </div>
