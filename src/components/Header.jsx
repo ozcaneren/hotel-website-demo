@@ -31,6 +31,7 @@ export function Header() {
                     <Link href="/spa">Spa</Link>
                     <Link href="/activities">Aktiviteler</Link>
                     <Link href="/lorymamice">Loryma Mice</Link>
+                    <Link href="/facility">Tesis</Link>
                   </span>
                 </span>
               </div>
