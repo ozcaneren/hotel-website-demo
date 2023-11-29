@@ -54,7 +54,7 @@ export async function Footer() {
           <div className="flex items-center justify-between my-8">
             <a href="#">
               <h1 className="text-xl text-gray-400 tracking-wide">
-                Copyright 2023 <span className="text-gray-200">Vihobook</span>{" "}
+                Copyright 2023 <span className="text-gray-200"><br className="md:hidden" />Vihobook</span> <br className="md:hidden" />
                 All rights reserved.
               </h1>
             </a>

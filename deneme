@@ -1,0 +1,51 @@
+"use client";
+
+import Link from "next/link";
+import { BsFillTelephoneFill, BsFillFlagFill } from "react-icons/bs";
+import { useState } from "react";
+
+export function Header() {
+  const [openDropdown, setOpenDropdown] = useState(false);
+
+  const toggleDropdown = () => {
+    setOpenDropdown(!openDropdown);
+  };
+
+  return (
+    <header className="w-full text-gray-700 top-0 z-50 bg-white shadow-sm fixed body-font">
+      <nav className="md:container flex flex-col justify-between items-center z-20 py-8 px-6 mx-auto md:flex-row">
+        <div class="flex justify-between items-center">
+          <div className="flex items-center font-medium text-[#0c3b59] title-font md:mb-0">
+            <div>
+              <div className="flex justify-start items-center">
+                <Link href="/">
+                  <h1 className="font-tilt text-xl font-medium">
+                    <span className="text-[#0c3b59]">K</span>ayra
+                    <span className="text-[#0c3b59]">T</span>ur
+                  </h1>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden lg:ml-4 justify-center items-center w-full lg:flex lg:w-auto lg:order-1">
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <span className="relative flex cursor-pointer px-2 py-2 flex-row items-center h-11 focus:outline-none">
+                <span className="block py-2 border-b lg:border-0 lg:p-0 space-x-4">
+                  <Link href="/rooms">Odalar</Link>
+                  <Link href="/restaurant">Restoran</Link>
+                  <Link href="/poolbeach">Havuz & Sahil</Link>
+                  <Link href="/spa">Spa</Link>
+                  <Link href="/activities">Aktiviteler</Link>
+                  <Link href="/lorymamice">Loryma Mice</Link>
+                  <Link href="/facility">Tesis</Link>
+                </span>
+              </span>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+  );
+}
