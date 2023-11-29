@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
         <Image
-          src="https://i.hizliresim.com/jggfkmr.jpg"
+          src="https://plus.unsplash.com/premium_photo-1663093806285-d905ca96c661?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Next.js Logo"
           width={1920}
           height={1000}
@@ -358,7 +358,7 @@ export default function Home() {
       </div>
 
       <div>
-        <h1 className="text-center text-xl md:text-3xl text-[#0d3c5a] uppercase">
+        <h1 className="text-center text-xl md:text-3xl text-[#0d3c5a]">
           Galerimizden Goruntuler
         </h1>
         <div className="flex flex-col md:flex-row md:flex-wrap justify-center">

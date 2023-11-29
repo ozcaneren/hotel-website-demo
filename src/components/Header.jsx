@@ -19,8 +19,7 @@ export function Header() {
             <div className="flex justify-start items-center">
               <Link href="/">
                 <h1 className="flex justify-center items-center text-2xl font-medium">
-                  <span className="text-[#0c3b59]">K</span>ayra
-                  <span className="text-[#0c3b59]">T</span>ur
+                  Lorem Hotel
                 </h1>
               </Link>
             </div>
@@ -38,7 +37,7 @@ export function Header() {
                     <Link href="/poolbeach">Havuz & Sahil</Link>
                     <Link href="/spa">Spa</Link>
                     <Link href="/activities">Aktiviteler</Link>
-                    <Link href="/lorymamice">Loryma Mice</Link>
+                    <Link href="/salon">Salon</Link>
                     <Link href="/facility">Tesis</Link>
                   </span>
                 </span>
