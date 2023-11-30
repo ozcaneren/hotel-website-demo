@@ -1,5 +1,5 @@
 export const metadata = {
-  title: `Projects`,
+  title: `Odalar`,
 };
 
 export default function Layout({ children }) {

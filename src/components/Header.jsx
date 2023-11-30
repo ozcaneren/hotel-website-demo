@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { BsFillTelephoneFill, BsFillFlagFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { BiWorld } from "react-icons/bi";
 import { useState } from "react";
 
 export function Header() {
@@ -48,7 +49,7 @@ export function Header() {
 
         <nav className="hidden lg:flex items-center font-tilt justify-center text-lg ml-4">
           <div className="flex justify-center items-center text-[#0c3b59]">
-            <Link href="/login">
+            <Link href="/">
               <span className="relative flex cursor-pointer flex-row items-center focus:outline-none">
                 <BsFillTelephoneFill size={16} className="" />
                 <span className="block py-2 px-2 lg:hover-bg-transparent lg-border-0 lg-p-0">
@@ -58,10 +59,10 @@ export function Header() {
             </Link>
           </div>
           <div className="flex justify-center items-center text-[#0c3b59]">
-            <Link href="/login">
+            <Link href="/">
               <span className="relative flex cursor-pointer flex-row items-center focus:outline-none">
                 <span className="block py-2 px-2 lg:hover-bg-transparent lg-border-0 lg-p-0">
-                  <BsFillFlagFill size={16} className="" />
+                  <BiWorld size={16} className="" />
                 </span>
                 TR
               </span>

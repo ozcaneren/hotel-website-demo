@@ -26,7 +26,7 @@ export default function Page() {
             <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
               <div className="lg:w-[1200px]">
                 <p className="text-lg leading-relaxed">
-                Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
                   vitae elementum. Odio aenean sed adipiscing diam donec. Sit
                   amet volutpat consequat mauris nunc congue nisi vitae. Massa
                   placerat duis ultricies lacus sed turpis.
@@ -34,15 +34,15 @@ export default function Page() {
                   Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
                   vitae elementum. Odio aenean sed adipiscing diam donec. Sit
                   amet volutpat consequat mauris nunc congue nisi vitae. Massa
-                  placerat duis ultricies lacus sed turpis.
-                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
-              vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
-              volutpat consequat mauris nunc congue nisi vitae. Massa placerat
-              duis ultricies lacus sed turpis.
-              Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
-              vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
-              volutpat consequat mauris nunc congue nisi vitae. Massa placerat
-              duis ultricies lacus sed turpis.
+                  placerat duis ultricies lacus sed turpis. Vulputate sapien nec
+                  sagittis aliquam malesuada bibendum arcu vitae elementum. Odio
+                  aenean sed adipiscing diam donec. Sit amet volutpat consequat
+                  mauris nunc congue nisi vitae. Massa placerat duis ultricies
+                  lacus sed turpis. Vulputate sapien nec sagittis aliquam
+                  malesuada bibendum arcu vitae elementum. Odio aenean sed
+                  adipiscing diam donec. Sit amet volutpat consequat mauris nunc
+                  congue nisi vitae. Massa placerat duis ultricies lacus sed
+                  turpis.
                 </p>
               </div>
               <div className="flex justify-center items-center">
