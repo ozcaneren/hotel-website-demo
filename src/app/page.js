@@ -7,10 +7,10 @@ export default function Home() {
   const [show, setShow] = useState(false);
 
   const shortText =
-    "Loryma Resort, Bozburun Yarımadası’nın muhteşem deniz ve dağ manzarasına sahip 200 metre rakımdan Turunç Koyu'na bakan yemyeşil bir yamaç üzerinde konumlandırılmıştır. Doğal bahçe içinde, huzurlu, dingin ortamda 164 süit, özel rezidans daireler, 2 bar, 2 restoran, havuz, miniclub, açık park yeri gibi birçok hizmet birimi içermektedir. Ayrıca doğa sporu programları ve spa ve hamamında wellness, fitness ve yoga seansları sunan tesis, ‘’sürdürülebilir turizm’’ düşüncesiyle çevreye duyarlı ve kalıcı bir yapı olarak tasarlanmıştır. Otel, sunduğu seçkin hizmetleriyle ve dinlendirici tatil seçenekleriyle birlikte, Güney Ege’nin mükemmel doğası içinde aktif tatil olanaklarından yararlanmayı arzu eden ailelere ve her yaştan çiftlere, arkadaş gruplarına ve tek başına seyahat edenlere hitap eder.";
+    "Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet volutpat consequat mauris nunc congue nisi vitae. Massa placerat duis ultricies lacus sed turpis. Habitant morbi tristique senectus et netus et malesuada fames. Fusce ut placerat orci nulla pellentesque dignissim. Odio facilisis mauris sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Pulvinar neque laoreet suspendisse interdum consectetur libero. Cras sed felis eget velit aliquet sagittis id. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Quam quisque id diam vel quam. Ut tristique et egestas quis ipsum suspendisse. Convallis posuere morbi leo urna molestie at. Viverra adipiscing at in tellus integer feugiat. Id neque aliquam vestibulum morbi blandit cursus risus.";
 
   const longText =
-    "Loryma Resort, Bozburun Yarımadası’nın muhteşem deniz ve dağ manzarasına sahip 200 metre rakımdan Turunç Koyu'na bakan yemyeşil bir yamaç üzerinde konumlandırılmıştır. Doğal bahçe içinde, huzurlu, dingin ortamda 164 süit, özel rezidans daireler, 2 bar, 2 restoran, havuz, miniclub, açık park yeri gibi birçok hizmet birimi içermektedir. Ayrıca doğa sporu programları ve spa ve hamamında wellness, fitness ve yoga seansları sunan tesis, ‘’sürdürülebilir turizm’’ düşüncesiyle çevreye duyarlı ve kalıcı bir yapı olarak tasarlanmıştır. Otel, sunduğu seçkin hizmetleriyle ve dinlendirici tatil seçenekleriyle birlikte, Güney Ege’nin mükemmel doğası içinde aktif tatil olanaklarından yararlanmayı arzu eden ailelere ve her yaştan çiftlere, arkadaş gruplarına ve tek başına seyahat edenlere hitap eder.Bulunduğu yamacın doğal bitki örtüsü içerisinde kaybolan tesis, 24.000 metrekarelik bir alanı kapsamaktadır. Tesisin mimarisinde doğal taş gibi yöresel unsurları fonksiyonel, modern ve estetik bir mimari stil ile harmanlayan bir yaklaşım hakimdir. Tesisteki tüm yapıların izlediği yalın mimari çizgi, yoğun ve nitelikli taş duvar işçiliğiyle yumuşatılmıştır. Böylece Loryma Resort Hotel, entegre edildiği doğal çevresiyle, yani Turunç Koyu'nun çam ormanı ve zeytinliklerle bezenmiş yamaç bölgesiyle ahenk içindedir. Loryma misafirleri, sağlıklı beslenmenin, tazeliğin ve lezzetin Loryma mutfaklarında çok önemli bir yere sahip olduğunu bilirler. Otel kendi doğal sızma zeytinyağını üretmekte, kendi bahçesinde organik sebze yetiştiriciliği yapmaktadır. Bu taze ve mevsimsel seçenekler Loryma’nın zengin büfesinde ve Loryma Bistro’nun A La Carte servisinde sunulmaktadır. 1989 senesinde hizmete açılan otel 1997 yılında genişletilmiş, 2008 ile 2012 arasında ve son olarak 2018’de yapılan kapsamlı yenileme çalışmalarıyla son halini almış";
+    "Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet volutpat consequat mauris nunc congue nisi vitae. Massa placerat duis ultricies lacus sed turpis. Habitant morbi tristique senectus et netus et malesuada fames. Fusce ut placerat orci nulla pellentesque dignissim. Odio facilisis mauris sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Pulvinar neque laoreet suspendisse interdum consectetur libero. Cras sed felis eget velit aliquet sagittis id. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Quam quisque id diam vel quam. Ut tristique et egestas quis ipsum suspendisse. Convallis posuere morbi leo urna molestie at. Viverra adipiscing at in tellus integer feugiat. Id neque aliquam vestibulum morbi blandit cursus risus.Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet volutpat consequat mauris nunc congue nisi vitae. Massa placerat duis ultricies lacus sed turpis. Habitant morbi tristique senectus et netus et malesuada fames. Fusce ut placerat orci nulla pellentesque dignissim. Odio facilisis mauris sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Pulvinar neque laoreet suspendisse interdum consectetur libero. Cras sed felis eget velit aliquet sagittis id. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Quam quisque id diam vel quam. Ut tristique et egestas quis ipsum suspendisse. Convallis posuere morbi leo urna molestie at. Viverra adipiscing at in tellus integer feugiat. Id neque aliquam vestibulum morbi blandit cursus risus.Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet volutpat consequat mauris nunc congue nisi vitae. Massa placerat duis ultricies lacus sed turpis. Habitant morbi tristique senectus et netus et malesuada fames. Fusce ut placerat orci nulla pellentesque dignissim. Odio facilisis mauris sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Pulvinar neque laoreet suspendisse interdum consectetur libero. Cras sed felis eget velit aliquet sagittis id. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Quam quisque id diam vel quam. Ut tristique et egestas quis ipsum suspendisse. Convallis posuere morbi leo urna molestie at. Viverra adipiscing at in tellus integer feugiat. Id neque aliquam vestibulum morbi blandit cursus risus.";
 
   const toggleShow = () => {
     setShow((prev) => !prev);
@@ -187,7 +187,7 @@ export default function Home() {
             <div className="lg:py-6 lg:px-4 flex justify-center items-center flex-row lg:flex-row lg:gap-x-8 md:gap-x-6 gap-x-2 lg:gap-y-0">
               <div className="border-[4px] md:border-[16px] rounded-full border-[#89B022]">
                 <Image
-                  src="https://cache.marriott.com/marriottassets/marriott/PMIXR/pmixr-exterior-4478-hor-feat.jpg"
+                  src="https://picsum.photos/500/500"
                   className="md:w-[270px] md:h-[270px] w-[175px] h-[175px] rounded-full object-cover"
                   alt=""
                   width={270}
@@ -196,7 +196,7 @@ export default function Home() {
               </div>
               <div className="border-[4px] md:border-[16px] rounded-full border-[#89B022]">
                 <Image
-                  src="https://cache.marriott.com/marriottassets/marriott/PMIXR/pmixr-exterior-4478-hor-feat.jpg"
+                  src="https://picsum.photos/500/500?random=1"
                   className="md:w-[270px] md:h-[270px] w-[175px] h-[175px] rounded-full object-cover"
                   alt=""
                   width={270}
@@ -206,7 +206,7 @@ export default function Home() {
             </div>
             <div className="lg:py-6 lg:px-4 py-4 text-center lg:text-left">
               <h1 className="text-xl md:text-3xl mb-4 md:mb-8 text-white">
-                Loryma Resort Hotel, Doğa İle Dost Bir Tatil…
+                Lorem Hotel, Doğa İle Dost Bir Tatil…
               </h1>
               <span className="text-white text-[15px] md:text-[16px] lg:text-[18px]">
                 {show ? longText : shortText}
@@ -264,11 +264,10 @@ export default function Home() {
                 <div className="ml-8">
                   <h1 className="text-xl text-blue-800 mb-1">Restaurant</h1>
                   <p className="text-[15px] text-left text-gray-600">
-                    Loryma mutfaklarında tazeliğin ve lezzetin önemi ilk sırada.
-                    Konuklarımıza kendi yetiştirdiğimiz sebzeler ve kendi
-                    zeytinyağımızı sunmaktan mutluluk duyarız. Körfez manzaralı
-                    restoranlarımızda güleryüzlü ve profesyonel servis ekibimiz
-                    hizmetinizdedir.
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum
+                    arcu vitae elementum. Odio aenean sed adipiscing diam donec.
+                    Sit amet volutpat consequat mauris nunc congue nisi vitae.
+                    Massa placerat duis ultricies lacus sed turpis.
                   </p>
                 </div>
               </div>
@@ -286,11 +285,10 @@ export default function Home() {
                 <div className="ml-8">
                   <h1 className="text-xl text-blue-800 mb-1">Havuz ve Sahil</h1>
                   <p className="text-[15px] text-left text-gray-600">
-                    Açık ve kapalı olmak üzere iki havuzumuz sezon boyunca
-                    misafirlerin hizmetindedir. Çocuk havuzu ise zeytin
-                    ağaçların gölgesinde ve bahçe içinde ayrı yerde
-                    bulunmaktadır. Otelimize en yakın Mavi Bayraklı koy ve
-                    plajlar Turunç, Amos ve Kumlubük Koyları’dır.
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum
+                    arcu vitae elementum. Odio aenean sed adipiscing diam donec.
+                    Sit amet volutpat consequat mauris nunc congue nisi vitae.
+                    Massa placerat duis ultricies lacus sed turpis.
                   </p>
                 </div>
               </div>
@@ -308,13 +306,10 @@ export default function Home() {
                 <div className="ml-8">
                   <h1 className="text-xl text-blue-800 mb-1">Spa</h1>
                   <p className="text-[15px] text-left text-gray-600">
-                    Yeni spa ve hamam bölümü için deneyimli partnerimiz Loryma
-                    Spa profesyonel ekibiyle sizi doğu ve batı tarzı masaj ve
-                    bakım programlarıyla dinçleştirecek. Loryma Spa Loryma
-                    Resort’un doğasever yanaşımına uyumlu biçimde tasarladığı
-                    programında bal, süt, şifalı bitkiler, yosunlar, aromatik
-                    yağlar ve Loryma Resort’un kendi üretimi zeytinyağlarını
-                    kullanmaktadır.
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum
+                    arcu vitae elementum. Odio aenean sed adipiscing diam donec.
+                    Sit amet volutpat consequat mauris nunc congue nisi vitae.
+                    Massa placerat duis ultricies lacus sed turpis.
                   </p>
                 </div>
               </div>
@@ -332,12 +327,10 @@ export default function Home() {
                 <div className="ml-8">
                   <h1 className="text-xl text-blue-800 mb-1">Aktiviteler</h1>
                   <p className="text-[15px] text-left text-gray-600">
-                    Aktif tatil seçenekleri tercih eden misafirlerimiz için
-                    fitnes salonumuz, Yoga seanslarımız, tenis kortumuz ve
-                    tırmanma duvarımız ücretsiz olarak sunulmaktadır.Seçilmiş
-                    doğa sporu programımız sayesinde misafirlerimiz ayrıca da
-                    güzel Bozburun Yarımadasını daha iyi tanımaya fırsatını
-                    yakalarlar.
+                    Vulputate sapien nec sagittis aliquam malesuada bibendum
+                    arcu vitae elementum. Odio aenean sed adipiscing diam donec.
+                    Sit amet volutpat consequat mauris nunc congue nisi vitae.
+                    Massa placerat duis ultricies lacus sed turpis.
                   </p>
                 </div>
               </div>
