@@ -40,6 +40,7 @@ export function Header() {
                     <Link href="/activities">Aktiviteler</Link>
                     <Link href="/salon">Salon</Link>
                     <Link href="/facility">Tesis</Link>
+                    <Link href="/dashboard">Dashboard</Link>
                   </span>
                 </span>
               </div>
@@ -128,6 +129,11 @@ export function Header() {
                     <Link href="/facility">
                       <span className="block border-b border-gray-100 px-2 py-1 hover:bg-gray-200 rounded">
                         Tesis
+                      </span>
+                    </Link>
+                    <Link href="/dashboard">
+                      <span className="block border-b border-gray-100 px-2 py-1 hover:bg-gray-200 rounded">
+                        Dashboard
                       </span>
                     </Link>
                   </div>
