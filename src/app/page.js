@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -117,7 +118,7 @@ export default function Home() {
                 <div className="max-w-md bg-white rounded overflow-hidden shadow-lg hover:shadow-xl">
                   <Image
                     className="w-full hover:scale-110 transition-all duration-500 ease-in-out"
-                    src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Property Image"
                     width={1000}
                     height={1000}
@@ -125,11 +126,11 @@ export default function Home() {
                   <div className="px-4 py-2">
                     <div className="flex flex-row justify-between items-center pt-2">
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
-                        room.roomTitle
+                        Oda 1
                       </h2>
-                      <button className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link href='/rooms/1' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
                         Detaylar
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -138,7 +139,7 @@ export default function Home() {
                 <div className="max-w-md bg-white rounded overflow-hidden shadow-lg hover:shadow-xl">
                   <Image
                     className="w-full hover:scale-110 transition-all duration-500 ease-in-out"
-                    src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Property Image"
                     width={1000}
                     height={1000}
@@ -146,11 +147,11 @@ export default function Home() {
                   <div className="px-4 py-2">
                     <div className="flex flex-row justify-between items-center pt-2">
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
-                        room.roomTitle
+                        Oda 2
                       </h2>
-                      <button className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link href='/rooms/2' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
                         Detaylar
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -159,7 +160,7 @@ export default function Home() {
                 <div className="max-w-md bg-white rounded overflow-hidden shadow-lg hover:shadow-xl">
                   <Image
                     className="w-full hover:scale-110 transition-all duration-500 ease-in-out"
-                    src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Property Image"
                     width={1000}
                     height={1000}
@@ -167,11 +168,11 @@ export default function Home() {
                   <div className="px-4 py-2">
                     <div className="flex flex-row justify-between items-center pt-2">
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
-                        room.roomTitle
+                        Oda 3
                       </h2>
-                      <button className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link href='/rooms/3' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
                         Detaylar
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -185,7 +186,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
             <div className="lg:py-6 lg:px-4 flex justify-center items-center flex-row lg:flex-row lg:gap-x-8 md:gap-x-6 gap-x-2 lg:gap-y-0">
-              <div className="border-[4px] md:border-[16px] rounded-full border-[#89B022]">
+              <div className="border-[4px] md:border-[16px] rounded-full border-[#15252e]">
                 <Image
                   src="https://picsum.photos/500/500"
                   className="md:w-[270px] md:h-[270px] w-[175px] h-[175px] rounded-full object-cover"
@@ -194,7 +195,7 @@ export default function Home() {
                   height={270}
                 />
               </div>
-              <div className="border-[4px] md:border-[16px] rounded-full border-[#89B022]">
+              <div className="border-[4px] md:border-[16px] rounded-full border-[#15252e]">
                 <Image
                   src="https://picsum.photos/500/500?random=1"
                   className="md:w-[270px] md:h-[270px] w-[175px] h-[175px] rounded-full object-cover"
@@ -213,7 +214,7 @@ export default function Home() {
               </span>
               <button
                 onClick={toggleShow}
-                className="block mx-auto lg:mx-0 mt-4 bg-[#89B022] text-white py-2 px-4 rounded-lg"
+                className="block mx-auto lg:mx-0 mt-4 bg-[#15252e] text-white py-2 px-4 rounded-lg"
               >
                 {
                   <span className="text-[15px] md:text-[16px] lg:text-[17px]">
@@ -232,7 +233,7 @@ export default function Home() {
             <h1 className="text-center text-xl md:text-2xl lg:text-3xl text-[#0C3B59]">
               Lorem
             </h1>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg text-gray-900 lg:pt-6 leading-relaxed">
               Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
               vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
               volutpat consequat mauris nunc congue nisi vitae. Massa placerat

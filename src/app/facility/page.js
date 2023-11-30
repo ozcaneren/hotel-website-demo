@@ -142,7 +142,7 @@ export default function Page() {
                     </li>
                   </div>
                   <div>
-                    <ul className="pt-2 list-disc space-y-1">
+                    <ul className="pt-2 lg:pt-0 list-disc space-y-1">
                       <li className="text-lg">Resepsiyon 7/24</li>
                       <li className="text-lg">
                         Özel plaj ( yeme – içme ekstra ücretlidir)
