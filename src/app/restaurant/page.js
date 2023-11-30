@@ -20,7 +20,7 @@ export default function Page() {
             </div>
           </div>
           <div className="mx-auto container pt-16">
-            <h1 className="text-[#0d3c5a] text-3xl text-center lg:text-left">
+            <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl">
               Restoran
             </h1>
             <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
@@ -92,7 +92,7 @@ export default function Page() {
                   />
                 </div>
                 <div className="lg:w-[1000px] lg:order-2 order-1 flex justify-center flex-col">
-                  <h1 className="text-[#0d3c5a] font-semibold text-center lg:text-left text-2xl">
+                  <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl">
                     X Restaurant
                   </h1>
                   <p className="pt-6 text-lg leading-relaxed">
@@ -111,7 +111,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <h1 className="text-center text-4xl text-[#0d3c5a] my-12">
+              <h1 className="text-[#0d3c5a] text-center font-semibold lg:text-left text-2xl lg:text-3xl my-12">
                 Barlar
               </h1>
               <div className="mt-12 px-5 lg:px-0 space-y-12">
@@ -126,7 +126,7 @@ export default function Page() {
                     />
                   </div>
                   <div className="lg:w-[1000px] lg:order-2 order-1 flex justify-center flex-col">
-                    <h1 className="text-[#0d3c5a] font-semibold text-center lg:text-left text-2xl">
+                    <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl">
                       X Restaurant
                     </h1>
                     <p className="pt-6 text-lg leading-relaxed">
@@ -154,7 +154,7 @@ export default function Page() {
                     />
                   </div>
                   <div className="lg:w-[1000px] lg:order-2 order-1 flex justify-center flex-col">
-                    <h1 className="text-[#0d3c5a] font-semibold text-center lg:text-left text-2xl">
+                    <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl">
                       X Restaurant
                     </h1>
                     <p className="pt-6 text-lg leading-relaxed">
@@ -174,11 +174,11 @@ export default function Page() {
               </div>
             </div>
             <div className="md:max-w-[700px] md:mx-auto lg:max-w-[1000px] xl:max-w-[1400px] lg:mx-auto">
-              <h1 className="text-center text-4xl text-[#0d3c5a] my-12">
+              <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-12 lg:mt-8">
                 Galeri
               </h1>
               <div className="flex flex-wrap flex-row gap-x-4 gap-y-4 justify-center items-center lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-6 mx-auto">
-              <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
                   <Image
                     src="https://picsum.photos/500/500?random=0"
                     alt="Picture of the author"

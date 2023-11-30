@@ -34,11 +34,10 @@ export default function Home() {
 
   return (
     <main className="pt-28 pb-4">
-
       <div class="w-full relative md:h-[500px] lg:h-[750px]">
         <div class="absolute text-center w-full">
           <div className="flex flex-col justify-center items-center h-[250px] md:h-[500px] lg:h-[750px]">
-            <h1 class="text-white font-semibold text-stroke-1 md:text-stroke-3 text-lg md:text-3xl lg:text-5xl">
+            <h1 class="text-white font-semibold text-stroke-1 md:text-stroke-3 text-xl md:text-3xl lg:text-5xl">
               Size özel fiyat ve promosyonlar ile şimdi rezervasyon <br />
               yapın.
             </h1>
@@ -209,7 +208,7 @@ export default function Home() {
               <h1 className="text-xl md:text-3xl mb-4 md:mb-8 text-white">
                 Loryma Resort Hotel, Doğa İle Dost Bir Tatil…
               </h1>
-              <span className="text-white text-[14px] md:text-[16px] lg:text-[18px]">
+              <span className="text-white text-[15px] md:text-[16px] lg:text-[18px]">
                 {show ? longText : shortText}
               </span>
               <button
@@ -217,7 +216,7 @@ export default function Home() {
                 className="block mx-auto lg:mx-0 mt-4 bg-[#89B022] text-white py-2 px-4 rounded-lg"
               >
                 {
-                  <span className="text-[14px] md:text-[15px] lg:text-[16px]">
+                  <span className="text-[15px] md:text-[16px] lg:text-[17px]">
                     {show ? "Daha Az" : "Daha Fazla"}
                   </span>
                 }
@@ -228,26 +227,21 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto max-w-7xl">
-        <div className="flex flex-col mt-12">
+        <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
           <div>
-            <h1 className="text-center text-xl md:text-2xl lg:text-3xl text-[#0C3B59]">
-              Loryma Hizmetleri
+            <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-6 lg:mt-8 lg:uppercase">
+              Lorem
             </h1>
-            <p className="md:text-base px-4 lg:px-0 text-sm mt-6 md:text-[16px] lg:text-[17px]">
-              Loryma Resort misafirleri, bakımlı doğal bahçeler içine
-              yerleştirilmiş şık mekanlar ve ayrı binalara dağıtılmış, yalın
-              stilde döşenmiş kullanışlı odalarda konaklarlar. Geniş spa
-              alanı,yüzme havuzları ve sosyal mekanlarımız, tatillerinde
-              kaliteli vakit geçirmek ve dinginliğin tadını çıkarmak isteyen
-              konuklarımızı hizmete bekliyorlar. <br />
-              <br />
-              Sürdürülebilir turizme gönül vermiş bir işletme olarak
-              konuklarımızın tatillerini güzel tesisimizin dışında da
-              geçirmelerini, yöremizin doğal ve kültürel güzelliklerini tanımaya
-              vakit ayırmalarını ve aktif olarak keşfetmelerini umuyor ve teşvik
-              ediyoruz. Bunların başında her biri ayrı güzellikte koylarla
-              bezenmiş Güney Ege kıyılarımız ve özellikle Karia Yolu’nun
-              Bozburun Yarımadası etabı gelir.
+            <p className="text-lg leading-relaxed">
+              Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+              vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
+              volutpat consequat mauris nunc congue nisi vitae. Massa placerat
+              duis ultricies lacus sed turpis.
+              <br className="mb-8" />
+              Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+              vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
+              volutpat consequat mauris nunc congue nisi vitae. Massa placerat
+              duis ultricies lacus sed turpis.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 mb-12">
@@ -412,7 +406,6 @@ export default function Home() {
           <span className="uppercase text-white">Hepsini gör</span>
         </div>
       </div>
-
     </main>
   );
 }

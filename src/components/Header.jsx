@@ -119,9 +119,9 @@ export function Header() {
                         Aktiviteler
                       </span>
                     </Link>
-                    <Link href="/lorymamice">
+                    <Link href="/salon">
                       <span className="block border-b border-gray-100 px-2 py-1 hover:bg-gray-200 rounded">
-                        Loryma Mice
+                        Salon
                       </span>
                     </Link>
                     <Link href="/facility">

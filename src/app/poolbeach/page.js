@@ -11,85 +11,318 @@ export default function Page() {
               alt="Picture of the author"
               width={1920}
               height={500}
-              className="h-[180px] w-[100%] object-center object-cover"
+              className="h-[120px] md:h-[150px] lg:h-[180px] w-[100%] object-center object-cover"
             />
             <div class="absolute top-1/3 my-auto text-center px-4 w-full">
-              <h1 class="text-white text-5xl text-stroke-3 uppercase">
+              <h1 class="text-white text-5xl text-stroke-1 md:text-stroke-3 lg:uppercase">
                 Havuz & Sahil
               </h1>
             </div>
           </div>
           <div className="container mx-auto pt-16">
-            <div className="flex flex-row gap-x-12">
-              <div className="w-[1200px]">
+            <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
+              <div className="lg:w-[1200px]">
                 <p className="text-lg leading-relaxed">
-                  Loryma’nın havuz ve spa alanları merkezî olmakla beraber
-                  birbirine yakın konumdadır. Geniş güneşlenme alanlarıyla
-                  çevrili açık havuzumuz sezon boyu açıktır. Spa alanımızın
-                  yanındaki kapalı havuzumuz ise mevsimsel hava şartlarına göre
-                  ısıtılır ve tüm misafirlerimize açıktır. Havuz ve spa
-                  alanımızda yeterli sayıda şezlong, gölgelik ve havuz havlusu
-                  misafirlerimiz için hazır edilmektedir. Her iki havuz sabah
-                  08:00 ile akşam 19:00 arası kullanıma açıktır. Açık Yüzme
-                  Havuzu Açık yüzme havuzumuz 8x25 m boyundadır, bir tarafı 1.5
-                  m derinlikteyken, diğer tarafta derinlik 2.5 m’yi bulmaktadır.
-                  Kapalı Yüzme Havuzu Kapalı yüzme havuzumuz 10x15 m boyundadır.
-                  Derinliği 1.5 m’dir. Bu havuzumuzda yüzme antrenmanı yapmak
-                  isteyenler için bir akıntıya karşı yüzme makinası mevcuttur.
-                  2.40 m çaplı yuvarlak spa havuzumuz serinletici bir su
-                  masajıyla sıcak günlerde ferahlık sağlar.
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
+                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
+                  placerat duis ultricies lacus sed turpis. Habitant morbi
+                  tristique senectus et netus et malesuada fames. Fusce ut
+                  placerat orci nulla pellentesque dignissim. Odio facilisis
+                  mauris sit amet. Pharetra massa massa ultricies mi quis
+                  hendrerit dolor magna eget. Pulvinar neque laoreet suspendisse
+                  interdum consectetur libero. Cras sed felis eget velit aliquet
+                  sagittis id. Lacus sed turpis tincidunt id aliquet risus
+                  feugiat in ante. Eget felis eget nunc lobortis mattis aliquam
+                  faucibus purus in. At urna condimentum mattis pellentesque id
+                  nibh tortor id aliquet. Quam quisque id diam vel quam. Ut
+                  tristique et egestas quis ipsum suspendisse. Convallis posuere
+                  morbi leo urna molestie at. Viverra adipiscing at in tellus
+                  integer feugiat. Id neque aliquam vestibulum morbi blandit
+                  cursus risus.
                 </p>
-                <h1 className="text-[#0d3c5a] text-3xl mb-4 mt-8">
+                <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-8">
                   Açık Yüzme Havuzu
                 </h1>
-                <p className="text-lg">
-                  Açık yüzme havuzumuz 8x25 m boyundadır, bir tarafı 1.5 m
-                  derinlikteyken, diğer tarafta derinlik 2.5 m’yi bulmaktadır.
+                <p className="text-lg leading-relaxed">
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
+                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
+                  placerat duis ultricies lacus sed turpis.
                 </p>
-                <h1 className="text-[#0d3c5a] text-3xl mb-4 mt-6">
+                <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-8">
                   Kapalı Yüzme Havuzu
                 </h1>
-                <p className="text-lg">
-                  Kapalı yüzme havuzumuz 10x15 m boyundadır. Derinliği 1.5
-                  m’dir. Bu havuzumuzda yüzme antrenmanı yapmak isteyenler için
-                  bir akıntıya karşı yüzme makinası mevcuttur. 2.40 m çaplı
-                  yuvarlak spa havuzumuz serinletici bir su masajıyla sıcak
-                  günlerde ferahlık sağlar.
+                <p className="text-lg leading-relaxed">
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
+                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
+                  placerat duis ultricies lacus sed turpis.
                 </p>
               </div>
               <div className="flex justify-center items-center">
                 <Image
-                  src="https://i.hizliresim.com/guxwrnl.jpg"
+                  src="https://picsum.photos/500/500?random=1"
                   alt="Picture of the author"
                   width={500}
                   height={500}
-                  className="rounded-lg h-[425px] w-[600px] object-center object-cover"
+                  className="rounded-lg mt-4 lg:mt-0 h-[275px] lg:h-[350px] w-[500px] object-center object-cover"
                 />
               </div>
             </div>
-            <div className="flex flex-row gap-x-12 mt-12">
-              <div className="w-[1200px]">
-                <h1 className="text-[#0d3c5a] text-3xl mb-4">
+            <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
+              <div className="lg:w-[1200px]">
+                <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-8">
                   Sahil
                 </h1>
-                <p className="text-lg">
-                Otelimize en yakın Mavi Bayraklı koy ve plajlar Turunç, Amos ve Kumlubük Koyları’dır. Kıyı suları kristal berraklığında, sakin, sıcak yaz günlerinde daima ferahlatıcıdır. Denize çıkış sığdır. Kısmen kumlu, daha çok kayalık sahil, şnorkelli yüzme ve dalış için idealdir. Turunç plajına gün boyunca ücretsiz servis mevcuttur. Amos ve Kumlubük plajlarına Turunç iskelesinden düzenli seferler mevcut.Tüm çevre plajlarında şezlong, güneş şemsiyesi, duş imkanı, çeşitli kahve, bar ve restoranlar mevcuttur.
+                <p className="text-lg leading-relaxed">
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
+                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
+                  placerat duis ultricies lacus sed turpis.
                 </p>
-                <h1 className="text-[#0d3c5a] text-3xl mb-4 mt-6">
+                <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-8">
                   Çevre Koylarımız hakkında
                 </h1>
-                <p className="text-lg">
-                Ege Denizi ve Akdenizin kesişim noktası, yani Marmaris Körfezinin batısına doğru uzanan Bozburun ile Datça Yarımadaları ve yakınlarındaki Rodos ve Simi Adalarının oluşturduğu bölge, doğaseverler için eşi benzeri olmayan, kitle turizminden uzakta kalmış bir cennettir. Geçen zamanın ve denizin etkisiyle günümüzdeki girintili çıkıntılı, İskandinav fiyortlarına benzer görüntüsüne ulaşan kıyı şeridimiz ve koylarımız tatilcilerin, dalgıçların ve yelkencilerin uğrak noktası haline gelmiştir. Tarihöncesi dönemlerde bu bölgeye egemen olmuş Karya Uygarlığına selam eden 820 kmlik Karya Yolu, günümüzde bu özel bölgeyi keşfetmeye davet etmektedir. Antik ismi ‘Loryma’ olan Bozburun Yarımadası, bu yürüyüş yolunun en önemli kesitlerinden birini oluşturmaktadır. Yüksek biyoçeşitliliği ve harika doğasıyla öne çıkan bu yöre, Doğal Hayatı Koruma Vakfı (WWF) ve Birleşmiş Milletler Örgütü (UNO) tarafından yürütülen projeler sonunda hot spot - sıcak nokta olarak sınıflandırılmış, Datça ve Bozburun Yarımadaları böylelikle koruma bölgesi ilan edilmiştir. Bu özel yörede bulunma ayrıcalığına sahip olan Loryma Resort ayrıca Karya Yolunun İçmeler-Turunç-Amos kesitinin tam üzerinde konumlanmıştır.Bilgi için:www.cariantrail.com.Otelimize en yakın Mavi Bayraklı koy ve plajlar Turunç, Amos ve Kumlubük Koyları’dır. Kıyı suları kristal berraklığında, sakin, sıcak yaz günlerinde daima ferahlatıcıdır. Denize çıkış sığdır. Kısmen kumlu, daha çok kayalık sahil, şnorkelli yüzme ve dalış için idealdir.
+                <p className="text-lg leading-relaxed">
+                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
+                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
+                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
+                  placerat duis ultricies lacus sed turpis.
                 </p>
               </div>
               <div className="flex justify-center items-center">
                 <Image
-                  src="https://i.hizliresim.com/guxwrnl.jpg"
+                  src="https://picsum.photos/500/500?random=0"
                   alt="Picture of the author"
                   width={500}
                   height={500}
-                  className="rounded-lg h-[425px] w-[600px] object-center object-cover"
+                  className="rounded-lg mt-4 lg:mt-0 h-[275px] lg:h-[350px] w-[500px] object-center object-cover"
                 />
+              </div>
+            </div>
+
+            <div className="md:max-w-[700px] md:mx-auto lg:max-w-[1000px] xl:max-w-[1400px] lg:mx-auto">
+              <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-12 lg:mt-8">
+                Galeri
+              </h1>
+              <div className="flex flex-wrap flex-row gap-x-4 gap-y-4 justify-center items-center lg:grid lg:grid-cols-4 lg:gap-x-8 lg:gap-y-6 mx-auto">
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=0"
+                    alt="Picture of the author"
+                    width={500}
+                    height={500}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center lg:object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=1"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=2"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=3"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=4"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=5"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=6"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=7"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=8"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=9"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=10"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=11"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=12"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=13"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=14"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=15"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=16"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=17"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=18"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=19"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=20"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=21"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=22"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
+                <div className="w-[200px] h-[150px] lg:w-[425px] lg:h-[250px]">
+                  <Image
+                    src="https://picsum.photos/500/500?random=23"
+                    alt="Picture of the author"
+                    width={425}
+                    height={200}
+                    className="rounded-lg w-[200px] h-[150px] lg:w-[325px] lg:h-[250px] object-center object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>

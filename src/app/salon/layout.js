@@ -1,5 +1,5 @@
 export const metadata = {
-  title: `Loryma Mice`,
+  title: `Salon`,
 };
 
 export default function Layout({ children }) {
