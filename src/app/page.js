@@ -227,17 +227,12 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto max-w-7xl">
-        <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
+        <div className="flex flex-col mt-12 px-4 lg:px-0">
           <div>
-            <h1 className="text-[#0d3c5a] text-center lg:text-left text-2xl lg:text-3xl mb-4 mt-6 lg:mt-8 lg:uppercase">
+            <h1 className="text-center text-xl md:text-2xl lg:text-3xl text-[#0C3B59]">
               Lorem
             </h1>
             <p className="text-lg leading-relaxed">
-              Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
-              vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
-              volutpat consequat mauris nunc congue nisi vitae. Massa placerat
-              duis ultricies lacus sed turpis.
-              <br className="mb-8" />
               Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
               vitae elementum. Odio aenean sed adipiscing diam donec. Sit amet
               volutpat consequat mauris nunc congue nisi vitae. Massa placerat
