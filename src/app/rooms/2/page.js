@@ -26,31 +26,42 @@ export default function Page() {
             <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
               <div className="lg:w-[1000px]">
                 <p className="pt-6 text-lg leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Varius morbi enim nunc faucibus a pellentesque sit amet.
-                  Dignissim cras tincidunt lobortis feugiat vivamus. Mauris
-                  commodo quis imperdiet massa tincidunt nunc pulvinar. Amet
-                  consectetur adipiscing elit ut aliquam purus sit amet luctus.
-                  Nunc scelerisque viverra mauris in aliquam sem fringilla.
-                  Senectus et netus et malesuada fames ac turpis. Amet tellus
-                  cras adipiscing enim eu turpis egestas pretium aenean. Nunc id
-                  cursus metus aliquam eleifend mi in nulla. Donec adipiscing
-                  tristique risus nec feugiat in fermentum posuere. Nunc sed
-                  augue lacus viverra vitae congue. Sodales ut etiam sit amet
-                  nisl purus in mollis nunc. Aenean euismod elementum nisi quis.
-                  Interdum velit euismod in pellentesque massa.
-                  <br className="mb-6" />
-                  Leo a diam sollicitudin tempor id eu nisl nunc mi. Lobortis
-                  feugiat vivamus at augue eget arcu dictum varius. Sit amet
-                  consectetur adipiscing elit pellentesque habitant morbi.
-                  Tincidunt arcu non sodales neque sodales ut etiam. Sed viverra
-                  ipsum nunc aliquet bibendum enim. Vulputate sapien nec
-                  sagittis aliquam malesuada bibendum arcu vitae elementum. Odio
-                  aenean sed adipiscing diam donec. Sit amet volutpat consequat
-                  mauris nunc congue nisi vitae. Massa placerat duis ultricies
-                  lacus sed turpis. Habitant morbi tristique senectus et netus
-                  et malesuada fames.
+                  
+                <div className="pt-6 text-lg leading-relaxed">
+                  <span className="block mb-4 text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Varius morbi enim nunc faucibus a pellentesque sit
+                    amet. Dignissim cras tincidunt lobortis feugiat vivamus.
+                    Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.
+                    Amet consectetur adipiscing elit ut aliquam purus sit amet
+                    luctus. Nunc scelerisque viverra mauris in aliquam sem
+                    fringilla. Senectus et netus et malesuada fames ac turpis.
+                    Amet tellus cras adipiscing enim eu turpis egestas pretium
+                    aenean. Nunc id cursus metus aliquam eleifend mi in nulla.
+                    Donec adipiscing tristique risus nec feugiat in fermentum
+                    posuere. Nunc sed augue lacus viverra vitae congue. Sodales
+                    ut etiam sit amet nisl purus in mollis nunc. Aenean euismod
+                    elementum nisi quis. Interdum velit euismod in pellentesque
+                    massa.
+                  </span>
+                  <span className="text-lg leading-relaxed">
+                    Leo a diam sollicitudin tempor id eu nisl nunc mi. Lobortis
+                    feugiat vivamus at augue eget arcu dictum varius. Sit amet
+                    consectetur adipiscing elit pellentesque habitant morbi.
+                    Tincidunt arcu non sodales neque sodales ut etiam. Sed
+                    viverra ipsum nunc aliquet bibendum enim. Vulputate sapien
+                    nec sagittis aliquam malesuada bibendum arcu vitae
+                    elementum. Odio aenean sed adipiscing diam donec. Sit amet
+                    volutpat consequat mauris nunc congue nisi vitae. Massa
+                    placerat duis ultricies lacus sed turpis. Habitant morbi
+                    tristique senectus et netus et malesuada fames. Fusce ut
+                    placerat orci nulla pellentesque dignissim. Odio facilisis
+                    mauris sit amet. Pharetra massa massa ultricies mi quis
+                    hendrerit dolor magna eget. Pulvinar neque laoreet
+                    suspendisse interdum consectetur libero.
+                  </span>
+                </div>
                 </p>
               </div>
               <div className="hidden lg:flex justify-center items-center">

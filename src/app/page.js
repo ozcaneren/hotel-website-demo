@@ -39,8 +39,10 @@ export default function Home() {
         <div class="absolute text-center w-full">
           <div className="flex flex-col justify-center items-center h-[250px] md:h-[500px] lg:h-[750px]">
             <h1 class="text-white font-semibold text-stroke-1 md:text-stroke-3 text-xl md:text-3xl lg:text-5xl">
-              Size özel fiyat ve promosyonlar ile şimdi rezervasyon <br />
-              yapın.
+              <span className="block">
+                Size özel fiyat ve promosyonlar ile şimdi rezervasyon
+              </span>
+              <span>yapın.</span>
             </h1>
             <div className="bg-red-500 w-5/12 md:w-4/12 lg:w-2/12 mt-4 mx-auto rounded-2xl">
               <p class="text-sm md:text-xl font-semibold uppercase text-white py-2">
@@ -128,7 +130,10 @@ export default function Home() {
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
                         Oda 1
                       </h2>
-                      <Link href='/rooms/1' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link
+                        href="/rooms/1"
+                        className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded"
+                      >
                         Detaylar
                       </Link>
                     </div>
@@ -149,7 +154,10 @@ export default function Home() {
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
                         Oda 2
                       </h2>
-                      <Link href='/rooms/2' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link
+                        href="/rooms/2"
+                        className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded"
+                      >
                         Detaylar
                       </Link>
                     </div>
@@ -170,7 +178,10 @@ export default function Home() {
                       <h2 className="text-lg font-semibold text-gray-600 truncate">
                         Oda 3
                       </h2>
-                      <Link href='/rooms/3' className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded">
+                      <Link
+                        href="/rooms/3"
+                        className="bg-[#0c3b59] hover:scale-110 transition-all duration-500 ease-in-out text-white font-medium py-2 px-4 rounded"
+                      >
                         Detaylar
                       </Link>
                     </div>

@@ -25,25 +25,34 @@ export default function Page() {
             </h1>
             <div className="flex flex-col lg:flex-row px-5 lg:p-0 gap-y-6 lg:gap-x-12">
               <div className="lg:w-[1200px]">
-                <p className="text-lg leading-relaxed">
-                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
-                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
-                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
-                  placerat duis ultricies lacus sed turpis.
-                  <br className="mb-8" />
-                  Vulputate sapien nec sagittis aliquam malesuada bibendum arcu
-                  vitae elementum. Odio aenean sed adipiscing diam donec. Sit
-                  amet volutpat consequat mauris nunc congue nisi vitae. Massa
-                  placerat duis ultricies lacus sed turpis. Vulputate sapien nec
-                  sagittis aliquam malesuada bibendum arcu vitae elementum. Odio
-                  aenean sed adipiscing diam donec. Sit amet volutpat consequat
-                  mauris nunc congue nisi vitae. Massa placerat duis ultricies
-                  lacus sed turpis. Vulputate sapien nec sagittis aliquam
-                  malesuada bibendum arcu vitae elementum. Odio aenean sed
-                  adipiscing diam donec. Sit amet volutpat consequat mauris nunc
-                  congue nisi vitae. Massa placerat duis ultricies lacus sed
-                  turpis.
-                </p>
+                
+              <div className="pt-6 text-lg leading-relaxed">
+                  <span className="block mb-4 text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Varius morbi enim nunc faucibus a pellentesque sit
+                    amet. Dignissim cras tincidunt lobortis feugiat vivamus.
+                    Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.
+                    Amet consectetur adipiscing elit ut aliquam purus sit amet
+                    luctus.
+                  </span>
+                  <span className="text-lg leading-relaxed">
+                    Leo a diam sollicitudin tempor id eu nisl nunc mi. Lobortis
+                    feugiat vivamus at augue eget arcu dictum varius. Sit amet
+                    consectetur adipiscing elit pellentesque habitant morbi.
+                    Tincidunt arcu non sodales neque sodales ut etiam. Sed
+                    viverra ipsum nunc aliquet bibendum enim. Vulputate sapien
+                    nec sagittis aliquam malesuada bibendum arcu vitae
+                    elementum. Odio aenean sed adipiscing diam donec. Sit amet
+                    volutpat consequat mauris nunc congue nisi vitae. Massa
+                    placerat duis ultricies lacus sed turpis. Habitant morbi
+                    tristique senectus et netus et malesuada fames. Fusce ut
+                    placerat orci nulla pellentesque dignissim. Odio facilisis
+                    mauris sit amet. Pharetra massa massa ultricies mi quis
+                    hendrerit dolor magna eget. Pulvinar neque laoreet
+                    suspendisse interdum consectetur libero.
+                  </span>
+                </div>
               </div>
               <div className="flex justify-center items-center">
                 <Image
